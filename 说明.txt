@@ -1,0 +1,2 @@
+spring与mybatis五种整合方法之一
+  采用抽象类org.mybatis.spring.support.SqlSessionDaoSupport提供sqlSession
