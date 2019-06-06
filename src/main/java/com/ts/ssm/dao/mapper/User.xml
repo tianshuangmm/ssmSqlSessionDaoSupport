@@ -14,7 +14,10 @@
   </resultMap>
 
   <select id="select" parameterType="Integer" resultMap="UserResult">
-    SELECT * FROM user WHERE id = #{id:INTEGER}
+    SELECT * FROM user
+    <where>
+      id = #{id:INTEGER}
+    </where>
   </select>
 
 
